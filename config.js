@@ -14,7 +14,7 @@ global.BotName = "NINJA"
 global.packname = "NINJA BOT"
 global.author = "By: AMEEN"
 global.OwnerName = "AMEEN"
-global.BotSourceCode = "https://github.com/FantoX001/Miku-MD" // -- Please don't change -- //
+global.BotSourceCode = "https://github.com/RAONEAMEEN vu/Miku-MD" // -- Please don't change -- //
 global.SupportGroupLink = "https://wa.me/+916238768108"  // -- Please don't change -- //
 global.sessionName = "session"  // -- Don't change otherwise bot will not work -- //
 
@@ -58,19 +58,19 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
-    botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Baka!',
-    grouponly: 'This command is only made for *Groups*, Baka!',
-    privateonly: 'This command is only made for *Private Chat*, Baka!',
+    jobdone: 'നിന്റെ പണി ഏൽക്കുന്നുണ്ടടാ🤭...',
+    useradmin: 'Sorry, only *Group Admins* can use this command *okey☺️*!',
+    botadmin: 'Sorry, i cant execute this command without being an *Admin👻* of this group.',
+    botowner: 'Only my *Owner* can use this command, okey!',
+    grouponly: 'This command is only made for *Groups*, 😉!',
+    privateonly: 'This command is only made for *Private Chat*, huh!',
     botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Chotto Matte...',
-    nolink: 'Please provide me *link*, Baka!',
+    waiting: '_wait mown..._',
+    nolink: 'Please provide me *link*, മനസ്സിലായോ!',
     error: 'An error occurd!',
     banned: 'You are *Banned* fron using commands!',
     bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+    nonsfw: ' mown! This is not a NSFW enabled group!'
     
 }
 
