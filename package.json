@@ -1,6 +1,6 @@
 {
- "name": "miku-md",
- "description": "Multi Device Whatsapp Bot By Fantox",
+ "name": "Ninja bot",
+ "description": "Multi Device Whatsapp Bot By ninja",
  "version": "3.0.0",
  "main": "index.js",
  "type": "commonjs",
