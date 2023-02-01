@@ -19,7 +19,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Miku Bot MD', {
+console.log(color(figlet.textSync('Ninja Bot MD', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -27,8 +27,8 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: FantoX001','aqua'))
+console.log(color('\nHello, I am Ameen, the main developer of this bot.\n\nThanks for using: Ninja bot','aqua'))
+console.log(color('\nYou can follow me on InstaGram: ninja_b055','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
@@ -46,7 +46,7 @@ store.bind(Miku.ev)
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await Miku.sendContact(callerId, global.owner)
-    Miku.sendMessage(callerId, { text: `Baka! You will be blocked automatically for calling me!`}, { quoted : pa7rick })
+    Miku.sendMessage(callerId, { text: `mownu! You will be blocked automatically for calling me!`}, { quoted : pa7rick })
     await sleep(8000)
     await Miku.updateBlockStatus(callerId, "block")
     }
@@ -77,9 +77,9 @@ Miku.ev.on('groups.update', async pea => {
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `${BotName}`, wm_fatih, [])
+       Miku.send5ButImg(pea[0].id, `Group has been *Closed👻!* Only *Admins* can send Messages!`, `${BotName}`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `${BotName}`, wm_fatih, [])
+       Miku.send5ButImg(pea[0].id, `Group has been *Opened👀!* Now *Everyone* can send Messages!`, `${BotName}`, wm_fatih, [])
        } else {
        Miku.send5ButImg(pea[0].id, `Group Subject has been updated to *${pea[0].subject}*`, `${BotName}`, wm_fatih, [])
      }
